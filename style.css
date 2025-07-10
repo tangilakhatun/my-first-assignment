@@ -36,6 +36,9 @@ header{
     font-weight: bold;
 
 }
+.text-center{
+    text-align: center;
+}
 /* nav style */
 nav{
     display: flex;
@@ -91,4 +94,29 @@ main{
     padding-bottom: 24px;
     ;
 }
-
+/* user section */
+  .users{
+    background-color: #4E47FF10;
+    padding: 50px 80px;
+    border-radius: 24px;
+    margin-top: 120px;
+    
+}
+.users-verified{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    margin: auto;
+}
+.users-number{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.users-descreption{
+    font-size: 20px;
+    color: #25243250;
+}
