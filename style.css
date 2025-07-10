@@ -64,4 +64,31 @@ nav .nav-title{
 .banner h2{
     margin-bottom: 20px;
 }
+/* main section style */
+main{
+    width: 80%;
+    margin: auto;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 120px;
+}
+.hero-image{
+    height: 328px;
+    border-radius: 48px;
+}
+.hero-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    padding-bottom: 23px;
+}
+.hero-description{
+    font-size: 24px;
+    color: #25243250;
+    padding-bottom: 24px;
+    ;
+}
 
