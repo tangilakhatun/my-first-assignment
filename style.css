@@ -39,6 +39,9 @@ header{
     font-weight: bold;
 
 }
+.btn:hover{
+    background-color:orangered;
+}
 .text-center{
     text-align: center;
 }
@@ -191,6 +194,37 @@ font-size: 16px;
 padding-top: 20px;
 border-radius: 48px;
 }
+/* form style */
+.input-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 71px 0;
+    margin-top: 120px;
+}
+.input-title{
+    font-size: 97px;
+    font-weight: bold;
+    color: #000000;
+}
+form input[type="text"] ,form input[type="email"], form textarea{
+   
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    width:100%;
+    padding: 20px 30px;
+    margin-bottom: 24px;
+    border: none;
+}
+form button{
+    width: 100%;
+}
+form p{
+    margin-bottom: 10px;
+}
+
+
 
 
 
